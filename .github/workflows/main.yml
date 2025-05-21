@@ -18,7 +18,6 @@ jobs:
           node-version: '22'
       - run: npm install tiddlywiki
       - run: ./node_modules/.bin/tiddlywiki .  --output output --build plugins
-      - run: ./node_modules/.bin/tiddlywiki .  --output output --build files
       - run: ./node_modules/.bin/tiddlywiki .  --output output --build tiddlers
       - name: Deploy to GitHub Pages
         if: success()
