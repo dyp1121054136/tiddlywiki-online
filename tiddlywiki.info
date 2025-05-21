@@ -15,8 +15,6 @@
 	"build": {
 		"plugins": ["--load","plugins/",
 			"--rendertiddler","$:/core/save/all","index.html","text/plain"],
-		"files": ["--load","files/",
-			"--rendertiddler","$:/core/save/all","index.html","text/plain"],
 		"tiddlers": ["--load","tiddlers/",
 			"--rendertiddler","$:/core/save/all","index.html","text/plain"]
 	}
